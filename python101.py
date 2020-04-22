@@ -1,4 +1,3 @@
-The Lord has risen Hallelujah
-Hello Welcome to Python training
-We learned how to create branches in repository
-Welcome to day3
+print(3+3)
+print(100*2+6)
+print(100*2+6/3.5%4)
