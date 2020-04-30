@@ -6,5 +6,4 @@ y = x/7
 print(y)
 z = y*2
 f = y/2
-print (z)
-print (f)
+print(f)
