@@ -7,3 +7,6 @@ print(y)
 z = y*2
 f = y/2
 print(f)
+print('calculating the number of pay periods')
+print('in a year')
+print('Answer is 26')
