@@ -18,3 +18,5 @@
 #print(12 - month_number, "more months to end 2020")
 for a in range (2,4):
     print(a, "cubed is", a*a*a)
+for b in range (1,10):
+    print (b, "the even numbers under 20 are", b*2)
