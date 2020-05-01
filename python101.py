@@ -16,7 +16,13 @@
 #print("Welcome to May")
 #month_number = int(input("How many months have have gone by so far? "))
 #print(12 - month_number, "more months to end 2020")
-for a in range (2,4):
-    print(a, "cubed is", a*a*a)
-for b in range (1,10):
-    print (b, "the even numbers under 20 are", b*2)
+#basic loops"
+#for a in range (2,4):
+ #   print(a, "cubed is", a*a*a)
+ #end
+#for b in range (1,10):
+ #   print (b, "the even numbers under 20 are", b*2)
+ #end
+ #  adding for loop with else to a range(start,stop,step_size)
+for x in range (1,10):
+     print(x, "the odd numbers are",(x*2)-1)
