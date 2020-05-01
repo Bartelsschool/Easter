@@ -10,6 +10,9 @@
 #print('in a year')
 #print('Answer is 26')
 #input
-age = int(input("How old are you?"))
-print('Your age is', age)
-print('You have', 65 - age, 'years until retirement')
+#age = int(input("How old are you?"))
+#print('Your age is', age)
+#print('You have', 65 - age, 'years until retirement')
+print("Welcome to May")
+month_number = int(input("How many months have have gone by so far? "))
+print(12 - month_number, "more months to end 2020")
