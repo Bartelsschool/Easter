@@ -35,56 +35,77 @@
 #defining 
 #def is function
 #decimals are floats whole numbers are integers. commas mean space
-def add(x, y):
-    return x + y
+#def add(x, y):
+  #  return x + y
 
-def subtract(x, y):
-    return x - y
+#def subtract(x, y):
+  #  return x - y
 
-def multiply(x, y):
-    return x * y
+#def multiply(x, y):
+  #  return x * y
 
-def divide(x, y):
-    return x / y 
+#def divide(x, y):
+ #   return x / y 
 
-def again():
-   return "Y" or "N"
-
-
-
-print("What's your operation?")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
-choice = input("Enter choice(1/2/3/4):")
+#def again():
+  # return "Y" or "N"
 
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+
+#print("What's your operation?")
+#print("1.Add")
+#print("2.Subtract")
+#print("3.Multiply")
+#print("4.Divide")
+#choice = input("Enter choice(1/2/3/4):")
+
+
+#num1 = int(input("Enter first number: "))
+#num2 = int(input("Enter second number: "))
 
 #operation based on user choice
-if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+#if choice == '1':
+ #  print(num1,"+",num2,"=", add(num1,num2))
 
-elif choice == '2':
-   print(num1,"-",num2,"=", subtract(num1,num2))
+#elif choice == '2':
+  # print(num1,"-",num2,"=", subtract(num1,num2))
 
-elif choice == '4':
-   print(num1,"/",num2,"=", divide(num1,num2))
+#elif choice == '4':
+ #  print(num1,"/",num2,"=", divide(num1,num2))
 
-elif choice == '3':
-   print(num1,"*",num2,"=", multiply(num1,num2))
+#elif choice == '3':
+  # print(num1,"*",num2,"=", multiply(num1,num2))
 #relief valve
-else:
-   print("Invalid input. Do you want to try again?")
+#else:
+  # print("Invalid input. Do you want to try again?")
 
-def choice():
-    input("Enter choice(1/2/3/4):")
-again = input("Do you want to calculate again? Please type Y for YES or N for NO")
-if again.upper() =='Y': 
-   choice()
-elif again.upper() =='N': 
-   print("Thanks for trying")
+#def choice():
+ #   input("Enter choice(1/2/3/4):")
+#again = input("Do you want to calculate again? Please type Y for YES or N for NO")
+#if again.upper() =='Y': 
+  # choice()
+#elif again.upper() =='N': 
+ #  print("Thanks for trying")
 
 
+
+
+
+
+
+
+#code to see how many Nintendo Wiis a user can purchase. 
+#price of a Nintendo Wii is 80 dollars
+
+#def ans1():
+   #return "Y" or "N"
+#print("Hi there! Do you want to know how many Nintendo Wiis can you purchase?")
+#print("type Y for yes or N for No")
+#if ans1 =='Y':
+print("How much money do you have in your savings account?")
+num1 = 80
+num2 = int(input("in US Dollars"))
+num3 = num2/num1
+print("You can buy",num3,"Nintendo Wiis")
+#if ans1 =='N':
+  # print("have a good day then")
