@@ -105,7 +105,7 @@
 #if ans1 =='Y':
 
 
-
+'''
 print("Hi there! Do you want to know how many Nintendo Wiis can you purchase?")
 
 choice = input("Enter choice(Y/N):")
@@ -122,9 +122,19 @@ purchaseable_number = int(nintendo_wii_budget/cost_of_a_nintendo_wii_in_us_dolla
 cost_of_a_nintendo_wii_in_us_dollars = 80
 remaining_budget = cost_of_a_nintendo_wii_in_us_dollars-nintendo_wii_budget
 #num5 = purchaseable_number
+
 if cost_of_a_nintendo_wii_in_us_dollars == nintendo_wii_budget:
    print("My friend, you can buy only one Nintendo Wii.")
 if cost_of_a_nintendo_wii_in_us_dollars<nintendo_wii_budget:
    print("You can buy",purchaseable_number,"Nintendo Wiis")
 if cost_of_a_nintendo_wii_in_us_dollars>nintendo_wii_budget:
    print("you need",remaining_budget,"US Dollars more to afford one.")
+'''
+
+
+
+#lesson 4 
+#for_loops
+
+for x in range(1,100):
+  print(x, "multiples of 2", 2 * x)
