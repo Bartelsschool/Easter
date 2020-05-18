@@ -136,5 +136,8 @@ if cost_of_a_nintendo_wii_in_us_dollars>nintendo_wii_budget:
 #lesson 4 
 #for_loops
 
-for x in range(1,100):
-  print(x, "multiples of 2", 2 * x)
+for x in range(1,10):
+  print(x,"multiples of 2 are", 2 * x)
+  print(x,"multiples of 3 are", 3 * x)
+  print(x,"multiples of 4 are", 4 * x)
+ 
