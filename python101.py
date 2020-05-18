@@ -95,6 +95,7 @@
 
 
 #code to see how many Nintendo Wiis a user can purchase. 
+
 #price of a Nintendo Wii is 80 dollars
 
 #def ans1():
@@ -102,10 +103,28 @@
 #print("Hi there! Do you want to know how many Nintendo Wiis can you purchase?")
 #print("type Y for yes or N for No")
 #if ans1 =='Y':
-print("How much money do you have in your savings account?")
-num1 = 80
-num2 = int(input("in US Dollars"))
-num3 = num2/num1
-print("You can buy",num3,"Nintendo Wiis")
-#if ans1 =='N':
-  # print("have a good day then")
+
+
+
+print("Hi there! Do you want to know how many Nintendo Wiis can you purchase?")
+
+choice = input("Enter choice(Y/N):")
+#operation based on user choice
+if choice == 'Y':
+   print("How much money do you have in your savings account?")
+elif choice =='N':
+   print("have a good day then")
+
+#defining variables
+cost_of_a_nintendo_wii_in_us_dollars = 80
+nintendo_wii_budget = int(input("in US Dollars: "))
+purchaseable_number = int(nintendo_wii_budget/cost_of_a_nintendo_wii_in_us_dollars)
+cost_of_a_nintendo_wii_in_us_dollars = 80
+remaining_budget = cost_of_a_nintendo_wii_in_us_dollars-nintendo_wii_budget
+#num5 = purchaseable_number
+if cost_of_a_nintendo_wii_in_us_dollars == nintendo_wii_budget:
+   print("My friend, you can buy only one Nintendo Wii.")
+if cost_of_a_nintendo_wii_in_us_dollars<nintendo_wii_budget:
+   print("You can buy",purchaseable_number,"Nintendo Wiis")
+if cost_of_a_nintendo_wii_in_us_dollars>nintendo_wii_budget:
+   print("you need",remaining_budget,"US Dollars more to afford one.")
