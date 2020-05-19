@@ -135,9 +135,12 @@ if cost_of_a_nintendo_wii_in_us_dollars>nintendo_wii_budget:
 
 #lesson 4 
 #for_loops
+#how old will a KGer be?
 
-for x in range(1,10):
-  print(x,"multiples of 2 are", 2 * x)
-  print(x,"multiples of 3 are", 3 * x)
-  print(x,"multiples of 4 are", 4 * x)
+#in 2019, all class of 2020 kids entering KG were 5 years old.
+#This loop lesson is to list how old they will be from 2020 to 2050
+
+for x in range(2020,2050):
+  print(x,"age of KG class of 2020", 5 + x - 2019)
+  
  
